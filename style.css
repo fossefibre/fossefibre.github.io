@@ -1,0 +1,20 @@
+body {
+    width: 78%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+h1 {
+    align-self: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.long_input{
+    width: 60%;
+}
+
+button{
+    align-self: center;
+}
