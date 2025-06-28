@@ -51,6 +51,10 @@ h1 {
 .calendar .event {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
+  gap: 1rem;
+  padding: 0.2rem;
+  border: 1px solid burlywood;
+  border-radius: 5px;
 }
 
 .calendar .event .date {
