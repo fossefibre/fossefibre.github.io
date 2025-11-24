@@ -139,39 +139,6 @@ h1 {
   opacity: 0.4;
 }
 
-/* Counter */
-
-.slideshow {
-  counter-reset: currentStep 0 remainder 0 totalStep 0;
-}
-
-.slideshow figure {
-  counter-increment: totalStep;
-}
-
-.slideshow figure::before {
-  content: "";
-  counter-increment: currentStep;
-}
-
-.slideshow figure:focus-within ~ figure::before {
-  counter-increment: remainder;
-}
-
-.slideshow:hover figure:focus-within ~ .counter {
-  z-index: 1;
-  font-variant-numeric: tabular-nums;
-  position: absolute;
-  bottom: 1em;
-  right: 1.5em;
-  text-shadow: 1px 1px 1px #000;
-}
-
-.slideshow .counter::before {
-  font-size: 0.9em;
-  content: counter(currentStep) " / " counter(totalStep);
-}
-
 .calendar {
   display: grid;
   gap: 1rem;
